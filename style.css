@@ -1,3 +1,7 @@
 header{
     box-sizing: content-box;
 }
+
+body{
+    background-color: black;
+}
