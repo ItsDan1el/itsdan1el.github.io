@@ -1,6 +1,12 @@
 header{
     box-sizing: content-box;
 }
-otherversions{
+body{
     background-color: black;
+    
+    
+}
+.titlemian{
+    text-align: center;
+    background-image: "assets/img/bgmain.png" ;
 }
