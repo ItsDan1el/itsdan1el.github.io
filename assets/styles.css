@@ -15,4 +15,10 @@ font{
 }
 link{
     color:dodgerblue;
+    
+}
+.h1main{
+    background-image: image(assets/img/bgmain);
+    text-align: center;
+
 }
