@@ -8,5 +8,8 @@ body{
 }
 .titlemian{
     text-align: center;
-    background-image: /img/bgmain.png ;
+    background-image: "assets/img/bgmain.png" ;
+}
+font{
+    color:white;
 }
