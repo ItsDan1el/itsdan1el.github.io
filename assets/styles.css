@@ -1,5 +1,8 @@
 header{
     box-sizing: content-box;
+    display: block;
+    block-size: auto;
+    color: gray;
 }
 body{
     background-color: black;
