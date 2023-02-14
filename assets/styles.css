@@ -1,8 +1,28 @@
-header{
-    display: block;
-    block-size: auto;
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
     color: gray;
-}
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: darkslategray;
+    text-decoration: none;
+    text-decoration-color: black;
+  }
 body{
     background-color: black;
     
