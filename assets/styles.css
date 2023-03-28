@@ -12,9 +12,9 @@ a:link {
   
   /* mouse over link */
   a:hover {
-    color: gray;
+    color: lightgray;
     text-decoration: underline;
-    text-decoration-color: black;
+    text-decoration-color: white;
   }
   
   /* selected link */
@@ -23,11 +23,7 @@ a:link {
     text-decoration: none;
     text-decoration-color: black;
   }
-body{
-    background-color: black;
-    
-    
-}
+
 .titlemian{
     text-align: center;
     background-image: "assets/img/bgmain.png" ;
