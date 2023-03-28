@@ -24,6 +24,10 @@ a:link {
     text-decoration-color: black;
   }
 
+body{
+    color: black;
+}
+
 .titlemian{
     text-align: center;
     background-image: "assets/img/bgmain.png" ;
