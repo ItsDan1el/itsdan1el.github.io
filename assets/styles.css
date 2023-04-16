@@ -12,15 +12,15 @@ a:link {
   
   /* mouse over link */
   a:hover {
-    color: lightgray;
+    color: white;
     text-decoration: underline;
     text-decoration-color: white;
   }
   
   /* selected link */
   a:active {
-    color: darkslategray;
-    text-decoration: none;
+    color: white;
+    text-decoration: underline;
     text-decoration-color: black;
   }
 
