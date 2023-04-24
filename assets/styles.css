@@ -1,27 +1,27 @@
 /* unvisited link */
 a:link {
-    color: white;
+    color: #55FFFF;
     text-decoration: none;
   }
   
   /* visited link */
   a:visited {
-    color: white;
+    color: #55FFFF;
     text-decoration: none;
   }
   
   /* mouse over link */
   a:hover {
-    color: white;
+    color: #55FFFFe;
     text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration-color: #55FFFF;
   }
   
   /* selected link */
   a:active {
-    color: white;
+    color: #55FFFF;
     text-decoration: underline;
-    text-decoration-color: black;
+    text-decoration-color: #55FFFF;
   }
 
 body{
@@ -29,23 +29,9 @@ body{
    
     
 }
-
-.titlemian{
-    text-align: center;
-    background-image: "assets/img/bgmain.png" ;
-}
 font{
     color:white;
     face:arial;
-}
-link{
-    color:dodgerblue;
-    
-}
-.h1main{
-    background-image: image(assets/img/bgmain);
-    text-align: center;
-
 }
 div.gallery {
   margin: 5px;
