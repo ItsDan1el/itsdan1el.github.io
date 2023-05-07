@@ -59,6 +59,12 @@ div.desc {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+div.bloglist {
+    color: white;
+    background-color: #777;
+    padding: 16px 20px;
+}
+
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;
