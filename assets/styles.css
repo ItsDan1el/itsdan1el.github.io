@@ -165,7 +165,8 @@ div.bloglist a:active {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: white;
+  background-color: #0000AA;
+  font-family: Arial;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -173,6 +174,7 @@ div.bloglist a:active {
 .leftcolumn {
   float: left;
   width: 75%;
+  font-family: Arial;
 }
 
 /* Right column */
@@ -180,20 +182,16 @@ div.bloglist a:active {
   float: left;
   width: 25%;
   padding-left: 20px;
+  font-family: Arial;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: #0000AA;
   padding: 20px;
   margin-top: 20px;
+  font-family: Arial;
 }
 
 /* Clear floats after the columns */
@@ -201,14 +199,7 @@ div.bloglist a:active {
   content: "";
   display: table;
   clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+  font-family: Arial;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
