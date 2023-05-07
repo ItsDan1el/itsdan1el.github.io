@@ -76,6 +76,31 @@ div.bloglist:h1 {
 
 }
 
+div.bloglist a:link {
+    color: #0000AA;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+div.bloglist a:visited {
+    color: #0000AA;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+div.bloglist a:hover {
+    color: #0000AA;
+    text-decoration: underline;
+    text-decoration-color: #0000AA;
+  }
+  
+  /* selected link */
+div.bloglist a:active {
+    color: #0000AA;
+    text-decoration: underline;
+    text-decoration-color: #0000AA;
+  }
+
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;
