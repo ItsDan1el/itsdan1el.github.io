@@ -12,7 +12,7 @@ a:link {
   
   /* mouse over link */
   a:hover {
-    color: #55FFFFe;
+    color: #55FFFF;
     text-decoration: underline;
     text-decoration-color: #55FFFF;
   }
@@ -60,9 +60,20 @@ div.desc {
 }
 
 div.bloglist {
-    color: white;
+    color: black;
     background-color: #777;
-    padding: 16px 20px;
+    padding: 20px 24px;
+    font-family: Arial;
+
+}
+
+div.bloglist:h1 {
+    color: black;
+    background-color: #777;
+    padding: 20px 24px;
+    font-family: Arial;
+    font-weight: bold;
+
 }
 
 /* Add a black background color to the top navigation bar */
