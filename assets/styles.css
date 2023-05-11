@@ -30,6 +30,10 @@ body{
    
     
 }
+h2{
+  color: white;
+  margin-left: 8px;
+}
 font{
     color:white;
     face:arial;
@@ -65,7 +69,8 @@ div.bloglist {
     background-color: #777;
     padding: 20px 24px;
     font-family: Arial;
-    border-radius: 15px
+    border-radius: 15px;
+    margin: 20px;
 
 }
 
