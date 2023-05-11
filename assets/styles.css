@@ -83,6 +83,7 @@ div.bloglist:h1 {
 
 }
 
+
 div.bloglist a:link {
     color: #0000AA;
     text-decoration: none;
@@ -203,6 +204,12 @@ div.bloglist a:active {
   margin-top: 20px;
   font-family: Arial;
   color: white;
+}
+
+/* Remove the spacing befor the title */
+.card:h2 {
+    color: white;
+    margin-left: 0;
 }
 
 /* Clear floats after the columns */
