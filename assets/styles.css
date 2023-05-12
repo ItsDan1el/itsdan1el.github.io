@@ -32,7 +32,7 @@ body{
 }
 h2{
   color: white;
-  margin-left: 8px;
+  margin-left: 10px;
 }
 font{
     color:white;
@@ -202,12 +202,13 @@ div.bloglist a:active {
   background-color: #1D2222;
   padding: 20px;
   margin-top: 20px;
+  margin-left:8px;
   font-family: Arial;
   color: white;
 }
 
 /* Remove the spacing befor the title */
-.card:h2 {
+.card h2 {
     color: white;
     margin-left: 0;
 }
