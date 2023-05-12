@@ -185,6 +185,7 @@ div.bloglist a:active {
   width: 75%;
   font-family: Arial;
   color: white;
+  margin-left:8px;
 }
 
 /* Right column */
@@ -194,6 +195,7 @@ div.bloglist a:active {
   padding-left: 20px;
   font-family: Arial;
   color: white;
+  margin-right: 8px;
 }
 
 
@@ -202,7 +204,7 @@ div.bloglist a:active {
   background-color: #1D2222;
   padding: 20px;
   margin-top: 20px;
-  margin-left:8px;
+  
   font-family: Arial;
   color: white;
 }
