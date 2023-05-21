@@ -196,6 +196,15 @@ div.bloglist a:active {
   color: white;
 }
 
+/* Center column */
+.centercolumn {
+    float: left;
+    left: 50%;
+    width: 75%;
+    font-family: Arial;
+    color: white;
+}
+
 
 /* Add a card effect for articles */
 .card {
