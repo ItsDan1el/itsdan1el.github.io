@@ -208,7 +208,7 @@ div.bloglist a:active {
 }
 
 /* Cneter the images in Center Column*/
-.centercolumn:img {
+.centercolumn img {
     align: center;
 }
 
