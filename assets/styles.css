@@ -203,6 +203,13 @@ div.bloglist a:active {
     width: 75%;
     font-family: Arial;
     color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Cneter the images in Center Column*/
+.centercolumn:img {
+    align: center;
 }
 
 
