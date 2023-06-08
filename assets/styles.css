@@ -250,3 +250,10 @@ div.bloglist a:active {
     padding: 0;
   }
 }
+
+.announcement {
+  background: linear-gradient(rgb(248, 104, 104), red);
+  align-content: center;
+  border-radius: 15px;
+
+}
