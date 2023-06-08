@@ -252,8 +252,7 @@ div.bloglist a:active {
 }
 
 .announcement {
-  background: linear-gradient(rgb(248, 104, 104), red);
-  align-content: center;
-  border-radius: 15px;
-
+background: linear-gradient(rgb(248, 104, 104), red);
+    border-radius: 10px;
+    text-align: center;
 }
