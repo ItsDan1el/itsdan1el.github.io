@@ -253,6 +253,41 @@ div.bloglist a:active {
 
 .announcement {
 background: linear-gradient(rgb(248, 104, 104), red);
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     text-align: center;
+}
+
+.announcement a:link {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+    
+}
+
+.announcement a:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+    
+}
+
+.announcement a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+    
+}
+
+.announcement a:active {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+    
+}
+
+.announcement h2 {
+    margin: 0;
+    font-family: Arial;
+    font-weight: bold;
 }
