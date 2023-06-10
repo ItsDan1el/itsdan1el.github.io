@@ -332,6 +332,11 @@ background: linear-gradient(rgb(248, 104, 104), red);
   .popup-body {
     padding: 2px 16px;
     color: white;
+    background-color: 00ECFF;
+    margin: 15% auto;
+    width: 80%;
+      filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
   
 
