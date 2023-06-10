@@ -301,7 +301,8 @@ background: linear-gradient(rgb(248, 104, 104), red);
     width: 100%; 
     height: 100%; 
     overflow: auto; 
-
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
   }
   
 
@@ -323,7 +324,7 @@ background: linear-gradient(rgb(248, 104, 104), red);
 
 .popup-header {
     padding: 2px 16px;
-
+    background-color: #5cb85c;
     color: white;
   }
   
@@ -332,8 +333,15 @@ background: linear-gradient(rgb(248, 104, 104), red);
     padding: 2px 16px;
     color: white;
 }
+  
 
-.popup-body a:link {
+  .popup-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .popup-body a:link {
     color: lime;
     text-decoration: none;
   }
@@ -356,19 +364,11 @@ background: linear-gradient(rgb(248, 104, 104), red);
     font-weight: bold;
     text-decoration-color: lime;
   }
-  
-
-  .popup-footer {
-    padding: 2px 16px;
-
-    color: white;
-  }
-  
 
   .popup-content {
     position: relative;
-
-    margin: auto;
+    background-color: #fefefe;
+    margin: 15% auto;
     padding: 0;
     border: 1px solid #888;
     width: 80%;
