@@ -405,8 +405,13 @@ div.bloglist a:active {
   background-color: #2d8c7836;
 }
 
-.collapscontent h4 {
-  margin-left: 10px;
+.packdownloadsall {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.packdownloadsall h2 {
+  margin-left: 0;
 }
 
 .collapsible:after {
