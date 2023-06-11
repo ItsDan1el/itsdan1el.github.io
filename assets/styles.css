@@ -398,7 +398,7 @@ div.bloglist a:active {
 }
 
 /* Style the collapsible content. Note: hidden by default */
-collapscontent {
+.collapscontent {
   padding: 0 18px;
   display: none;
   overflow: hidden;
