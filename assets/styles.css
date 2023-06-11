@@ -435,26 +435,29 @@ margin-left: 5px;
 content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-.badge-full {
+span.badge-full {
   background-color: #00AA00;
   color: white;
   padding: 4px 8px;
   text-align: center;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
-.badge-pre {
+span.badge-pre {
   background-color: red;
   color: white;
   padding: 4px 8px;
   text-align: center;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
-.badge-build {
+span.badge-build {
   background-color: #5555FF;
   color: white;
   padding: 4px 8px;
   text-align: center;
   border-radius: 5px;
+  margin-right: 10px;
 }
