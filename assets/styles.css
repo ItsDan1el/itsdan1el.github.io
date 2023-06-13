@@ -462,3 +462,27 @@ span.badge-build {
   border-radius: 5px;
   margin-right: 10px;
 }
+
+.packdownloadsall a:link {
+  color: darkblue;
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+}
+
+.packdownloadsall a:visited {
+  color: darkblue;
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+}
+
+.packdownloadsall a:hover {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+}
+
+.packdownloadsall a:active {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+}
