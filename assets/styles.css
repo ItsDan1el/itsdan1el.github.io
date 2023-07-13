@@ -490,9 +490,9 @@ span.badge-build {
 
 /*Text Selection Highlight*/
 ::-moz-selection {
-  background: 	#55FF55;
+  background: 	#55ff558c;
 }
 
 ::selection {
-  background: 	#55FF55;
+  background: 	#55ff558c;
 }
