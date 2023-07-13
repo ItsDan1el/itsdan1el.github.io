@@ -487,3 +487,12 @@ span.badge-build {
   text-decoration: underline;
   text-decoration-color: darkblue;
 }
+
+/*Text Selection Highlight*/
+::-moz-selection {
+  background: 	#55FF55;
+}
+
+::selection {
+  background: 	#55FF55;
+}
