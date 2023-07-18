@@ -1,0 +1,617 @@
+/* unvisited link */
+a:link {
+  color: #55FFFF;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #55FFFF;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #55FFFF;
+  text-decoration: underline;
+  text-decoration-color: #55FFFF;
+}
+
+/* selected link */
+a:active {
+  color: #55FFFF;
+  text-decoration: underline;
+  text-decoration-color: #55FFFF;
+}
+
+
+h2 {
+  color: white;
+  margin-left: 10px;
+}
+
+font {
+  color: white;
+  face: arial;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.bloglist {
+  color: black;
+  background-color: #64b4f6;
+  padding: 20px 24px;
+  font-family: Arial;
+  border-radius: 15px;
+  margin: 20px;
+
+}
+
+div.bloglist:h1 {
+  color: black;
+  background-color: #777;
+  padding: 20px 24px;
+  font-family: Arial;
+  font-weight: bold;
+
+}
+
+
+div.bloglist a:link {
+  color: #0000AA;
+  text-decoration: none;
+}
+
+/* visited link */
+div.bloglist a:visited {
+  color: #0000AA;
+  text-decoration: none;
+}
+
+/* mouse over link */
+div.bloglist a:hover {
+  color: #0000AA;
+  text-decoration: underline;
+  text-decoration-color: #0000AA;
+}
+
+/* selected link */
+div.bloglist a:active {
+  color: #0000AA;
+  text-decoration: underline;
+  text-decoration-color: #0000AA;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+  background-color: #54545475;
+}
+
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-color: #1D2222;
+  font-family: Arial;
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 70%;
+  font-family: Arial;
+  color: white;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  font-family: Arial;
+  color: white;
+}
+
+/* Center column */
+.centercolumn {
+  float: left;
+  left: 50%;
+  width: 75%;
+  font-family: Arial;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Cneter the images in Center Column*/
+.centercolumn img {
+  align: center;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: #64b4f6;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: Arial;
+  color: white;
+  border-radius: 15px;
+}
+
+/* Remove the spacing befor the title */
+.card h2 {
+  color: white;
+  margin-left: 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: Arial;
+  color: white;
+}
+
+/*add 10px of border arround the cards*/
+.row {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.announcement {
+  background: linear-gradient(rgb(248, 104, 104), red);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  border: 0px;
+}
+
+.announcement a:link {
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-decoration-color: #FFFFFF;
+
+}
+
+.announcement a:visited {
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-decoration-color: #FFFFFF;
+
+}
+
+.announcement a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-decoration-color: #FFFFFF;
+
+}
+
+.announcement a:active {
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-decoration-color: #FFFFFF;
+
+}
+
+.announcement h2 {
+  margin: 0;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 80%;
+  height: auto;
+  margin-top: 2%;
+  backdrop-filter: blur(2px);
+  margin-left: auto;
+  left: 10%;
+  margin-right: -50%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.popup-header {
+  padding: 2px 16px;
+  background-color: #888;
+  color: white;
+}
+
+
+.popup-body {
+  color: white;
+  padding: 2px 16px;
+  background-color: #1d22227a
+}
+
+
+.popup-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.popup-body a:link {
+  color: lime;
+  text-decoration: none;
+}
+
+.popup-body a:visited {
+  color: lime;
+  text-decoration: none;
+}
+
+.popup-body a:hover {
+  color: lime;
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration-color: lime;
+}
+
+.popup-body a:active {
+  color: lime;
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration-color: lime;
+}
+
+.popup-content {
+  background-color: #fefefe2b;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapscontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #a3a3a3e3;
+}
+
+
+.packdownloadsall {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.packdownloadsall h2 {
+  margin-left: 0;
+}
+
+.packdownloadsheader {
+  background-color: #00AAAA;
+}
+
+.packdownloadsheader h4 {
+  margin-bottom: 0;
+}
+
+.collapsible:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
+span.badge-full {
+  background-color: #00AA00;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+span.badge-pre {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+span.badge-build {
+  background-color: #5555FF;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.packdownloadsall a:link {
+  color: darkblue;
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+}
+
+.packdownloadsall a:visited {
+  color: darkblue;
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+}
+
+.packdownloadsall a:hover {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+}
+
+.packdownloadsall a:active {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+}
+
+/*Text Selection Highlight*/
+::-moz-selection {
+  background: #55f4ff8c;
+}
+
+::selection {
+  background: #55f4ff8c;
+}
+
+body {
+  background-image: url("/Users/daniel/Desktop/ItsDan1el's Pack/textures/gui/options_background.png");
+  background-size: 50px;
+  margin: 0;
+}
+
+.item {
+  background-color: #64b4f6;
+  border-radius: 15px;
+  padding: 50px 5px 5px;
+  margin-right: auto;
+
+  color: white;
+  box-sizing: content-box;
+
+  font-family: Arial;
+  margin-bottom: 20px;
+
+}
+
+
+.item img {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+.item a:link {
+  padding: 10px;
+  color: white;
+  background-color: #03a8f4;
+
+  float: right;
+}
+
+.item a:visited {
+  padding: 10px;
+  color: white;
+  background-color: #03a8f4;
+
+  float: right;
+}
+
+.nullitem {
+  background-color: #1565c0;
+  border-radius: 15px;
+  padding: 50px 5px 5px;
+  margin-right: auto;
+
+  color: white;
+  box-sizing: content-box;
+
+  font-family: Arial;
+  margin-bottom: 20px;
+
+}
+
+.nullitem img {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+
+.shoppingitems {
+  margin-bottom: 5%;
+}
+
+.pageheader {
+  padding: 100px 50px 100px;
+
+}
+
+.box {
+  margin-bottom: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #64b4f6;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  clear: left;
+}
+
+.boxright {
+  padding: 10px 20px;
+  background-color: #64b4f6;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  margin-top: 20px;
+
+}
+
+.box a:link {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.box a:visited {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.box a:hover {
+  color: aliceblue;
+  text-decoration: underline;
+  text-decoration-color: aliceblue;
+}
+
+.box a:active {
+  color: aliceblue;
+  text-decoration: underline;
+  text-decoration-color: aliceblue;
+}
+
+.box li {
+  margin-bottom: 8px;
+}
+
+.boxright a:link {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.boxright a:visited {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.boxright a:hover {
+  color: aliceblue;
+  text-decoration: underline;
+  text-decoration-color: aliceblue;
+}
+
+.boxright a:active {
+  color: aliceblue;
+  text-decoration: underline;
+  text-decoration-color: aliceblue;
+}
+
+.memberabout {
+  background-color: #64b4f6d8;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+
+.memberheader {
+  padding: 100px 50px;
+}
