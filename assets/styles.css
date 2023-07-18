@@ -451,7 +451,7 @@ span.badge-build {
 }
 
 body {
-  background-image: url("/Users/daniel/Desktop/ItsDan1el's Pack/textures/gui/options_background.png");
+  background-image: url("/assets/img/background.png");
   background-size: 50px;
   margin: 0;
 }
